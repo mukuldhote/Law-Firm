@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Law Firm</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+
+</head>
+
+
+<body>
+    <div class="arrow-btn">
+        <a href=""><span class="fas fa-angle-up"></span></a>
+    </div>
+    <section class="top">
+        <nav>
+            <a href="front.html"><img src="images/logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class=" fa fa-times " onclick="hideMenu() "></i>
+                <ul>
+                    <li><a href="front.html">HOME</a></li>
+                    <li><a href="practice.html">PRACTICES</a></li>
+                    <li><a href="Carrers.html">CAREERS </a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+        <div class="text-box ">
+            <h2>Your Problem's Are Our Problem's</h2>
+            <p>We have the best lawyers, ready to solve your issues in sofisticated manner</p>
+            <a href=" " class="hero-btn ">Visit to know more</a>
+        </div>
+
+    </section>
+
+    <!------we-->
+    <section class="we">
+        <h1>Who are we?</h1>
+        <p>we are the team of layres .......... bla bla bla</p>
+    </section>
+
+    <section class="area">
+        <div class="area-text"><br><br><br><br><br>
+            <h1>Areas of Practice</h1>
+            <p><br><br>‘Our team of experts cater to the needs of a variety of clients across various sectors,<br> jurisdictions and industries advising and helping them resolve complex legal and regulatory matters.’</p>
+        </div>
+        <div class="row1">
+            <div class="area-col1">
+                <a href="front.html"><img width="90" height="90" src="images/Banking-Finance.png"></a>
+                <h2>Banking & <br>Finance</h2>
+            </div>
+            <div class="area-col2">
+
+                <a href="front.html"><img width="90" height="90" src="images/Competition-Law.png"></a>
+                <h2>Competition<br> Law</h2>
+            </div>
+            <div class="area-col3">
+                <a href="front.html"><img width="90" height="90" src="images/Dispute-Resolution.png"></a>
+                <h2>Dispute<br> Resolution</h2>
+            </div>
+        </div>
+        <div class="row2">
+            <div class="area-col1">
+                <a href="front.html"><img width="90" height="90" src="images/Labour-Employment.png"></a>
+                <h2>Labour & <br>Employment</h2>
+            </div>
+            <div class="area-col2">
+
+                <a href="front.html"><img width="90" height="90" src="images/Corporate-Commercial.png"></a>
+                <h2>Corporate &<br> Commercial</h2>
+            </div>
+            <div class="area-col3">
+                <a href="front.html"><img width="90" height="90" src="images/Insolvency-Bankruptcy.png"></a>
+                <h2>Insolvency & <br>Bankruptcy</h2>
+            </div>
+        </div>
+
+    </section>
+    <!---------footer--------->
+    <section class="footer">
+        <h4>About Us</h4>
+
+    </section>
+
+
+    <!---------javascript--------->
+    <script>
+        var navLinks = document.getElementById("navLinks ");
+
+        function showMenu() {
+            navLinks.style.right = "0px";
+        }
+
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+
+</body>
+
+</html>
